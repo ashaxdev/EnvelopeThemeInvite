@@ -5,7 +5,7 @@ seal.addEventListener("click", () => {
   container.classList.add("open");
 });
 /* COUNTDOWN */
-const wedding = new Date("May 28, 2025").getTime();
+const wedding = new Date("May 22, 2026").getTime();
 
 setInterval(()=>{
   let now = new Date().getTime();
