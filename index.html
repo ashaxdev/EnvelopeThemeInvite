@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Wedding Invite</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Great+Vibes&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100..900;1,100..900&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Courgette&family=Great+Vibes&family=Italianno&family=Rammetto+One&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<div class="container">
+
+  <!-- LETTER CONTENT -->
+  <div class="letter" id="letter">
+    <div class="heading">
+  <p class="sub-text">Together with their families</p>
+
+  <h1 class="names">
+    <span class="bride">Ajith</span>
+    <span class="and">&</span>
+    <span class="groom">Shalini</span>
+  </h1>
+
+  <div class="divider"></div>
+
+  <p class="date">22 May 2026</p>
+</div>
+    <div class="countdown-wrapper">
+
+  <div class="countdown-frame">
+    <p class="count-label">We are getting married in</p>
+
+    <div class="countdown" id="countdown">
+      <div class="time-box">
+        <span id="days">00</span>
+        <small>Days</small>
+      </div>
+      <div class="time-box">
+        <span id="hours">00</span>
+        <small>Hours</small>
+      </div>
+      <div class="time-box">
+        <span id="minutes">00</span>
+        <small>Minutes</small>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+    <div class="events-wrapper">
+
+  <div class="event-item">
+    <div class="event-dot"></div>
+    <div class="event-content">
+      <p class="event-title">Engagement</p>
+      <p class="event-date">21 May</p>
+    </div>
+  </div>
+
+  <div class="event-item highlight">
+    <div class="event-dot"></div>
+    <div class="event-content">
+      <p class="event-title">Wedding</p>
+      <p class="event-date">22 May</p>
+    </div>
+  </div>
+
+  <div class="event-item">
+    <div class="event-dot"></div>
+    <div class="event-content">
+      <p class="event-title">Reception</p>
+      <p class="event-date">22 Night</p>
+    </div>
+  </div>
+
+</div>
+    <div class="map-section">
+
+  <p class="map-title">Venue</p>
+
+  <div class="map-card">
+    <img src="map.jpg" alt="Wedding Location" class="map-img">
+
+    <div class="map-overlay">
+      <p class="location-name">Chennai, Tamil Nadu</p>
+    </div>
+  </div>
+
+  <button class="map-btn" onclick="openMap()">View Location</button>
+
+</div>
+
+    <button class="rsvp-btn" onclick="sendRSVP()">
+  <span class="icon">💬</span>
+  <span class="text">RSVP on WhatsApp</span>
+</button>
+  </div>
+
+  <!-- ENVELOPE -->
+  <div class="envelope">
+
+    <div class="flap" id="flap"></div>
+
+    <div class="side-left"></div>
+    <div class="side-right"></div>
+
+    <div class="body"></div>
+    <div class="seal" id="seal">A</div>
+
+    
+
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
